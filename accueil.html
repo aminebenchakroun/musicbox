@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>MusicBox</title>
+		<link rel="stylesheet" href="accueil.css" />
+    </head>
+    
+		<body>
+		
+		<div class="headerfixe">
+		
+		<header>
+
+<img src="./header.png"/>
+
+		<search>
+
+<form id="form2" name="form2" method="post" action="">
+  <label for="search"></label>
+  <input name="search" type="text" id="search" value="Rechercher"/>
+</form>
+
+<script type="text/javascript">
+    window.onload = function(){
+	var search = document.getElementById('search');
+	//quand le curseur est dans le champs
+	search.onfocus = function(){
+		//si la valeur du champ vaut Recherche
+		if(this.value == 'Rechercher'){
+			this.value = '';
+		}
+	}
+        
+	//quand le curseur n'est plus dans le champs
+        search.onblur = function(){
+            //si la valeur du champ vaut rien
+            if(this.value == ''){
+                    this.value = 'Rechercher';
+            }
+        }
+}
+</script>
+
+</search>
+
+<div class="bouton1"><a href="page1.html"> S'inscrire </a></div>
+<div class="bouton2"><a href="page2.html"> S'identifier </a></div>
+
+
+		</header>
+		
+		</div>
+		
+			<div class="menuhori">
+		
+
+<ul id="menu_horizontal">
+<li><a href="accueil.php">Artiste</a></li>
+<li><a href="news.php">Salles</a></li>
+<li><a href="livreor.php">Agenda</a></li>
+<li><a href="contact.php">Forum</a></li>
+<li><a href="admin.php">Ma box</a></li>
+</ul>
+
+<h8>o O   Offline</h8>
+
+</div>
+
+
+
+
+<div class="menu">
+
+<h1> Actualités</h1>
+
+<img src="./band.png"/>
+<h4>Concerts</h4>
+
+<img src="./music.jpg"/>
+<h4>Musiques</h4>
+
+<img src="./salle.jpg"/>
+<h4>Salles</h4>
+
+<h1> Partageons</h1>
+
+<img src="./fb.jpeg"/>
+<h4>Facebook</h4>
+
+<img src="./twi.jpg"/>
+<h4>Twitter</h4>
+
+
+</div>
+
+
+	
+<div class="contenu">
+<h1> <img src="./band.png"/>  Derniers concerts<h1>
+<h1> <img src="./music.jpg"/> Dernières musiques</h1>
+<h1><img src="./salle.jpg"/>  Les salle en vogue </h1>
+
+
+
+</div>
+
+</div>
+	
+
+	
+
+
+
+
+
+		</body>
+</html>
