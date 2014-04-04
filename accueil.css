@@ -1,0 +1,198 @@
+body
+{
+  background: url('./degrade2.jpg');
+   height: 100%;
+   width: 100%;
+   margin: 0;
+}
+
+.headerfixe
+{
+display: block;
+position : fixed;
+top: 0px;
+width: 100%;
+left: 0px;
+opacity: 1;
+z-index: 999;
+}
+
+
+
+
+
+#search {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #84929a;
+	background-attachment: scroll;
+	background-color: #eceef0;
+	background-image: url(loupe.jpeg);
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	text-align: left;
+	vertical-align: middle;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: #de0059;
+	width: 450px;
+	height: 20px;
+	padding-left: 55px;/*ça fonctionne le décalage*/
+	position : absolute;
+    top: 35px;
+    right: 35%;
+	
+	}
+	
+h8{
+position: absolute;
+top: 150px;
+right: 100px;
+color: red ;
+font: 28px "arial", sans-serif;
+}
+
+
+h3{
+position: absolute;
+top: 300px;
+right: 100px;
+color: #9ACD32 ;
+}
+	
+	
+.bouton1
+{
+position: absolute;
+top: 30px;
+right: 280px;
+width: 100px;
+padding: 5px 3px;
+text-align: center;
+border: 1px solid;
+border-radius: 10px;
+box-shadow: 0 1px 2px rgba(10,0,0,0.3);
+background-color: #eceef0;
+
+ 
+}
+
+.bouton2
+{
+position: absolute;
+top: 30px;
+right: 100px;
+width: 100px;
+padding: 5px 3px;
+text-align: center;
+border: 1px solid;
+border-radius: 10px;
+box-shadow: 0 1px 2px rgba(10,0,0,0.3);
+background-color: #eceef0;
+
+ 
+}
+
+.bouton1:hover 
+{
+padding: 6px 4px;
+
+}
+
+.bouton2:hover
+{
+padding: 6px 4px;
+
+}
+ 
+.bouton1 a
+{
+color: black;
+font: 17px "arial", sans-serif;
+text-decoration:none;
+
+}
+
+.bouton2 a
+{
+color: black;
+font: 17px "arial", sans-serif;
+text-decoration:none;
+
+}
+
+
+
+
+li { 
+display : inline;
+font: 17px "arial", sans-serif;
+color: black;
+margin-right: 10px ;
+background: #c00 ;
+
+}
+
+li a {
+
+  padding: 5px 25px ;
+   background: #c00 ;
+  color: #fff ;
+  border: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+}
+
+li a:hover,li a:focus,li a:active {
+  background: #900 url(git.jpeg) left top no-repeat
+/*  background: #900 ; text-decoration: underline ; */
+}
+
+ul {
+position: absolute;
+right: 30%;
+top: 150px;
+list-style: none;
+ margin: 0;
+ padding: 0;
+ text-align: center ;
+}
+
+
+.menu{
+
+text-align: center ;
+width: 200px;
+ background: DarkRed ;
+position: absolute;
+left: 0px;
+top: 200px;
+border: 1px solid;
+border-radius: 10px;
+font: 17px "arial", sans-serif;
+}
+
+
+.contenu{
+
+position: absolute;
+left: 300px;
+top: 250px;
+font: 17px "arial", sans-serif;
+background: DarkRed ;
+}
+
+.contenu{
+float:right; 
+    width:30%;
+}
+
+.image{
+float:left; 
+display : block;
+
+}
+
+
