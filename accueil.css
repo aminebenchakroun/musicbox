@@ -22,23 +22,23 @@ z-index: 999;
 
 
 #search {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #84929a;
-	background-attachment: scroll;
-	background-color: #eceef0;
-	background-image: url(loupe.jpeg);
-	background-repeat: no-repeat;
-	background-position: 95% center;
-	text-align: left;
-	vertical-align: middle;
-	border-width: 1px;
-	border-style: dotted;
-	border-color: #de0059;
-	width: 450px;
-	height: 20px;
-	padding-left: 55px;/*ça fonctionne le décalage*/
-	position : absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #84929a;
+    background-attachment: scroll;
+    background-color: #eceef0;
+    background-image: url(loupe.jpeg);
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    text-align: left;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #de0059;
+    width: 450px;
+    height: 20px;
+    padding-left: 55px;/*ça fonctionne le décalage*/
+    position : absolute;
     top: 35px;
     right: 35%;
 	
@@ -136,7 +136,7 @@ background: #c00 ;
 li a {
 
   padding: 5px 25px ;
-   background: #c00 ;
+  background: #c00 ;
   color: #fff ;
   border: 1px solid #600 ;
   font: 1em "Trebuchet MS",Arial,sans-serif ;
