@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-    <title>Rejoignez la communauté MusicBox</title>
+        <title>Inscription</title>
 	<link rel="stylesheet" href="accueil.css" />
 </head>
 
@@ -21,11 +21,9 @@
 		<input type="text" name="nom" id="nom" placeholder="Nom" size="30" required/>
 		<input type="email" name="mail" id="mail" placeholder="Adresse mail" size="30" maxlength="30" required/><br/><br/>
 		
-		<label for="Date de naissance"><b>Date de naissance:<b></label>
-		<input type="text" name="jour="jour placeholder="Jour" size="30" required/>
-		<input type="text"name="mois" id="mois" placeholder="Mois" size="30" required/>
-		<input type="text" name="année" id="année" placeholder="Année" size="30" required/><br /><br />
-			
+                <label for="Date de naissance"><b>Date de naissance:</b></label>
+                <input type="date" name="date"><br/><br/>
+	
 		<label for="Adresse"><b>Adresse:</b></label>
 		<input type="text" name="rue" id="rue" placeholder="Rue" size="30"/>
 		<input type="text" name="cp" id="cp" placeholder="CP" size="30"/>
@@ -45,7 +43,11 @@
 		<input type="submit" value="Envoyer" /><br/>
 	</fieldset>
 	
-	
+</body>	
 </form>
-</body>
+
 </html>
+
+
+
+
