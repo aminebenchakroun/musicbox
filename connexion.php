@@ -23,9 +23,7 @@
 		<input type="password" name="motdepasse" id="motdepasse" placeholder="Mot de passe" size="30" maxlength="20" required/>
 		<input type="password" name="confirmationmotdepasse" id="confirmationmotdepasse" placeholder="Confirmation du mot de passe" size="30" required/><br/><br/>
 	
-		
-	
-                <input type="submit" value="Envoyer" /><br/>
+
 		<input type="submit" value="Envoyer" /><br/>
 	</fieldset>
 	
