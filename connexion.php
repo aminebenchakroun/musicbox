@@ -13,7 +13,6 @@
 </div>
 </header>
 
-<body>
 <h1>Connectez vous à votre MusicBox</h1>
 
 	<fieldset class="Connexion">
@@ -26,5 +25,4 @@
 		<input type="submit" name="submit" value="Envoyer" /><br/>
 	</fieldset>
 	
-</body>
 </html>
